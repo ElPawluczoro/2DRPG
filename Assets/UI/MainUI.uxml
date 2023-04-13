@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:ProgressBar value="22" title="my-progress" name="ExpBar" style="bottom: auto; position: relative; width: 1888px; top: 1030px; font-size: 30px; height: 40px; border-left-color: rgb(255, 0, 0); border-right-color: rgb(255, 0, 0); border-top-color: rgb(255, 0, 0); border-bottom-color: rgb(255, 0, 0);" />
+    <ui:Label text="Label" display-tooltip-when-elided="true" name="Level" style="top: 950px; width: 81px; right: auto; left: 20px; color: rgb(0, 0, 0); font-size: 32px; -unity-font-style: bold; background-color: rgb(130, 79, 68);" />
+    <ui:ProgressBar value="22" focusable="false" name="HealthBar" style="width: 190px; bottom: 70px; left: 50px;" />
+</ui:UXML>

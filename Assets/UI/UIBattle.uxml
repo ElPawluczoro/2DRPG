@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/HealthBarStyle.uss?fileID=7433441132597879392&amp;guid=706c1730b79b07d42a4f03d87082322b&amp;type=3#HealthBarStyle" />
+    <ui:VisualElement style="align-items: stretch; justify-content: space-between; position: absolute;">
+        <ui:Button text="Basic Atack" display-tooltip-when-elided="true" name="BasicAtack" style="white-space: normal; width: 107px; height: 36px; position: absolute; top: 886px; left: 127px;" />
+        <ui:ProgressBar value="22" title="my-progress" name="PlayerHealthBar" class="HralthBarStyle" style="top: 820px; left: 224px;" />
+        <ui:ProgressBar value="22" title="my-progress" name="EnemyHealthBar" style="width: 150px; position: absolute; top: 901px; left: 1397px;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" style="white-space: normal; width: 106px; height: 36px; -unity-text-align: middle-center; position: absolute; top: 886px; left: 364px;" />
+    </ui:VisualElement>
+</ui:UXML>
